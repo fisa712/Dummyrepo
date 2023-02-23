@@ -15,5 +15,5 @@ class Wallet:
     if self.balance>=withdrawal:
       self.balance -= withdrawal
     else:
-       return 'Low Amount'
+       return 'Low_Amount'
     return 'Succesfully Done'
